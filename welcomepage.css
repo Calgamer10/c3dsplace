@@ -1,0 +1,92 @@
+* {
+color: black;
+font-family: Google Sans Code;
+margin: 0px;
+background-color: rgb(245, 245, 245);
+}
+.titleheader {
+  font-size: 85px;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+.subtitle {
+  font-size: 25px;
+  margin-top: 5px;
+  text-align: center;
+}
+.aboutme {
+  height: 50px;
+  width: 125px; 
+  cursor: pointer;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  transition: background-color 0.15s, color 0.15s, box-shadow 0.15s;
+}
+.aboutme:hover,
+.socials:hover,
+.portfolio:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.85);
+  transform: rotate(3deg);
+}
+.portfolio {
+  height: 50px;
+  width: 125px;
+  cursor: pointer;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  transition: background-color 0.15s, color 0.15s,  box-shadow 0.15s;
+}
+.socials {
+  height: 50px;
+  width: 125px;
+  cursor: pointer;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  transition: background-color 0.15s, color 0.15s,  box-shadow 0.15s;
+}
+.cthreed {
+  margin: auto;
+  margin-bottom: 40px;
+  width: 70px;
+  display: block;
+}
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 450px;
+}
+.main {
+  margin: 0;
+  align-items: center;
+  place-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.aboutmetext {
+  background-color: rgb(187, 197, 47);
+  width: 200px;
+  height: 200px;
+  text-indent: 20px;
+  position: absolute;
+}
+@media (max-width: 550px) {
+  .buttons {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+    place-items: center;
+  }
+}
